@@ -32,10 +32,6 @@
 		<name>Antonio Musarra's Blog</name>
 		<url>http://www.dontesta.it</url>
 	</organization>
-	<!-- Override a user profile properties -->
-	<properties>
-		<plugin.type>hook</plugin.type>
-	</properties>
 	<build>
 		<plugins>
 			<plugin>
@@ -79,7 +75,7 @@
 					<autoVersionSubmodules>true</autoVersionSubmodules>
 					<useReleaseProfile>false</useReleaseProfile>
 					<releaseProfiles>liferay-release</releaseProfiles>
-					<altDeploymentRepository>internal.repo::default::file://${project.build.directory}/mvn-repo</altDeploymentRepository>
+					<altDeploymentRepository>internal.repository::default::file://${project.build.directory}/mvn-repository</altDeploymentRepository>
 				</configuration>
 			</plugin>
 			<plugin>
@@ -89,8 +85,8 @@
 				<configuration>
 					<message>Maven artifacts for ${project.version}</message>
 					<noJekyll>true</noJekyll>
-					<outputDirectory>${project.build.directory}/mvn-repo</outputDirectory>
-					<branch>refs/heads/mvn-repo</branch>
+					<outputDirectory>${project.build.directory}/mvn-repository</outputDirectory>
+					<branch>refs/heads/mvn-repository</branch>
 					<includes><include>**/*</include></includes>
 					<merge>true</merge>
 					<repositoryName>${project.name}</repositoryName>
@@ -191,9 +187,9 @@
 	</dependencies>
 	<distributionManagement>
 		<repository>
-			<id>internal.repo</id>
-			<name>Temporary Staging Repository</name>
-			<url>file://${project.build.directory}/mvn-repo</url>
+			<id>internal.repository</id>
+			<name>Staging Repository</name>
+			<url>file://${project.build.directory}/mvn-repository</url>
 		</repository>
 	</distributionManagement>
 	<scm>
