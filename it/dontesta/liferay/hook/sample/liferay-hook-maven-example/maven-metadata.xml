@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>it.dontesta.liferay.hook.sample</groupId>
+  <artifactId>liferay-hook-maven-example</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20141222091034</lastUpdated>
+  </versioning>
+</metadata>

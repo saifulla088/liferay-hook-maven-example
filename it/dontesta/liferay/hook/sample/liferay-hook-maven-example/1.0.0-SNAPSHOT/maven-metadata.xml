@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>it.dontesta.liferay.hook.sample</groupId>
+  <artifactId>liferay-hook-maven-example</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20141222.091033</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20141222091033</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>war</extension>
+        <value>1.0.0-20141222.091033-1</value>
+        <updated>20141222091033</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.0.0-20141222.091033-1</value>
+        <updated>20141222091033</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>war.asc</extension>
+        <value>1.0.0-20141222.091033-1</value>
+        <updated>20141222091033</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom.asc</extension>
+        <value>1.0.0-20141222.091033-1</value>
+        <updated>20141222091033</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
