@@ -6,7 +6,7 @@
 	<artifactId>liferay-hook-maven-example</artifactId>
 	<packaging>war</packaging>
 	<name>liferay-hook-maven-example</name>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<description>Liferay Hook Example via Maven SDK</description>
 	<inceptionYear>2014</inceptionYear>
 	<licenses>
@@ -196,7 +196,7 @@
 		<connection>scm:git:git@github.com:amusarra/liferay-hook-maven-example.git</connection>
 		<url>scm:git:git@github.com:amusarra/liferay-hook-maven-example.git</url>
 		<developerConnection>scm:git:git@github.com:amusarra/liferay-hook-maven-example.git</developerConnection>
-	  <tag>HEAD</tag>
+	  <tag>v1.0.0</tag>
   </scm>
 	<issueManagement>
 		<url>https://github.com/amusarra/liferay-hook-maven-example/issues</url>
