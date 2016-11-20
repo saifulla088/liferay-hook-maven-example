@@ -21,6 +21,7 @@ public class LoginPostAction extends Action {
   public void run(HttpServletRequest request, HttpServletResponse response)
   throws ActionException {
     if (_log.isInfoEnabled()) {
+    	_log.info("### Saifulla ###");
       _log.info("### My LoginPostAction ###");
     }
   }
